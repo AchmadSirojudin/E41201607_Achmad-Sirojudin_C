@@ -12,9 +12,11 @@ public class a_Perulangan_For {
         System.out.print("Masukkan Batas Nilai Akhir : ");
         int NilaiAkhir = in.nextInt();
 
-    for (int i = NilaiAwal; i <= NilaiAkhir; i += 2) {
-            System.out.print(i + " ");
+        for (int i = NilaiAwal; i <= NilaiAkhir; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
         }
-    }
 
+    }
 }
